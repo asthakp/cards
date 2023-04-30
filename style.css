@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 18px;
+}
+nav {
+  box-shadow: 0 5px 5px rgb(215, 213, 213);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  color: rgb(62, 61, 61);
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 1.8rem;
+  cursor: pointer;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+ul li:hover {
+  text-decoration: underline 3px gray;
+}
+.nav-right {
+  display: flex;
+  gap: 3rem;
+}
+.store {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  align-items: center;
+}
+.choice {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main {
+  width: 75%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.advertisement {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin: 20px 40px 30px;
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.container-box {
+  width: 250px;
+  height: 500px;
+  border: 1px solid rgb(235, 232, 232);
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+button {
+  width: 200px;
+  margin: auto;
+  outline: none;
+  border: none;
+  padding: 5px 5px;
+  border: 1px solid rgb(148, 145, 145);
+  background-color: inherit;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(225, 222, 222);
+}
+.food-detail {
+  margin-bottom: 2px;
+}
+.price {
+  padding: 2px;
+  background-color: rgb(229, 226, 226);
+  width: fit-content;
+}
+.input {
+  margin-top: -20px;
+}
+.input,
+.food-detail {
+  font-size: 14px;
+  color: grey;
+  font-weight: bold;
+}
+
+.shops i {
+  margin-right: 5px;
+  color: rgb(54, 53, 53);
+}
